@@ -1,61 +1,75 @@
-#**Milestone 1 – Data Preparation & Modeling**
+**#Milestone 1 – Data Modelling:**
 
-**Infosys Springboard Virtual Internship**
+**#Supply Chain Visibility & Optimization**
 
-This repository contains the work completed as part of Milestone 1 of the Infosys Springboard Virtual Internship – Data Visualization Project.
+This milestone focuses on building a strong data foundation for the Supply Chain Visibility & Optimization project by importing, cleaning, transforming, and modelling the supply chain dataset using Microsoft Power BI.
 
 **#Objective:**
 
-The objective of this milestone was to clean, transform, and model the DataCo Smart Supply Chain Dataset using Microsoft Power BI and Power Query Editor.
+- Import the supply chain dataset into Power BI.
+- Clean and transform data using Power Query Editor.
+- Handle missing values and duplicate records.
+- Correct data types and organize required columns.
+- Create Fact and Dimension tables.
+- Design a Star Schema data model.
+- Establish appropriate table relationships.
+- Prepare the data model for further supply chain analytics.
 
-**#Tools & Technologies:**
+**#Dataset Source:**
 
-- Microsoft Power BI
-- Power Query Editor
-- DAX (Data Analysis Expressions)
-- Data Cleaning & Transformation
-- Data Modeling
+Dataset: DataCo Smart Supply Chain Dataset
+Source: Kaggle
 
-#Tasks Completed:
+The dataset contains information related to customers, products, orders, shipping, departments, categories, and geographical locations.
 
-- Imported the dataset into Power BI.
-- Cleaned and transformed the data using Power Query Editor.
-- Created a central "Fact_table".
-- Created the following Dimension Tables:
-  - "Dim_Customer"
-  - "Dim_Product"
-  - "Dim_Category"
-  - "Dim_Shipping"
-  - "Dim_Location"
-  - "Dim_Department"
-  - "Dim_Date"
-- Removed duplicate and unnecessary records.
-- Created unique IDs using Index Columns.
+**#Data Cleaning & Transformation:**
+
+The following operations were performed using Power Query Editor:
+
+- Removed unnecessary columns and duplicate records.
+- Selected relevant columns for analysis.
+- Created Fact and Dimension tables.
+- Created unique identifiers using Index Columns.
 - Merged tables using Left Outer Joins.
 - Created a Date Dimension using DAX.
-- Established One-to-Many relationships between the Fact and Dimension Tables.
-- Built a structured data model for further analysis and visualization.
+- Created calculated date columns for Year, Month, Quarter, Week, and Day.
 
-**#Repository Structure:**
+**#Data Model Overview:**
 
-Milestone-1/
-│
-├── README.md
-├── Dataset/
-├── PowerBI-File/
-│   └── Milestone-1.pbix
-└── Screenshots/
+A structured data model was created consisting of:
 
-**#Key Learnings:**
+- "Fact_table"
+- "Dim_Customer"
+- "Dim_Product"
+- "Dim_Category"
+- "Dim_Shipping"
+- "Dim_Location"
+- "Dim_Department"
+- "Dim_Date"
 
-Through this milestone, I gained practical experience in data cleaning, Power Query transformations, dimensional modeling, DAX, table relationships, and Power BI data model development.
+Appropriate One-to-Many relationships were established between the Fact and Dimension tables to support efficient business analysis.
+
+**#Tools Used:**
+
+- Microsoft Power BI Desktop
+- Power Query Editor
+- DAX
+- GitHub
+
+**#Project Structure:**
+
+Milestone1/
+├── SupplyChain_Milestone1.pbix
+├── data/
+│   └── SupplyChain.csv
+├── screenshots/
+│   └── Data_model.png
+└── README.md
 
 **#Outcome:**
 
-Milestone 1 successfully established a clean and structured data model that can be used for further analysis, DAX measure creation, and interactive dashboard development in upcoming milestones.
+Successfully completed data preprocessing and developed a structured data model that provides a strong foundation for upcoming inventory, delivery, supplier, and transportation analytics modules.
 
-**#Author:**
+**Author:**
 
-Anumalla Shwethan Kumar 
-
-MCA Student | Data Science & Analytics Enthusiast
+Anumalla Shwethan Kumar
