@@ -1,14 +1,14 @@
-#Milestone 1 – Data Preparation & Modeling
+#**Milestone 1 – Data Preparation & Modeling**
 
-Infosys Springboard Virtual Internship
+**Infosys Springboard Virtual Internship**
 
 This repository contains the work completed as part of Milestone 1 of the Infosys Springboard Virtual Internship – Data Visualization Project.
 
-#Objective:
+**#Objective:**
 
 The objective of this milestone was to clean, transform, and model the DataCo Smart Supply Chain Dataset using Microsoft Power BI and Power Query Editor.
 
-#Tools & Technologies:
+**#Tools & Technologies:**
 
 - Microsoft Power BI
 - Power Query Editor
@@ -36,7 +36,7 @@ The objective of this milestone was to clean, transform, and model the DataCo Sm
 - Established One-to-Many relationships between the Fact and Dimension Tables.
 - Built a structured data model for further analysis and visualization.
 
-#Repository Structure:
+**#Repository Structure:**
 
 Milestone-1/
 │
@@ -46,15 +46,15 @@ Milestone-1/
 │   └── Milestone-1.pbix
 └── Screenshots/
 
-#Key Learnings:
+**#Key Learnings:**
 
 Through this milestone, I gained practical experience in data cleaning, Power Query transformations, dimensional modeling, DAX, table relationships, and Power BI data model development.
 
-#Outcome:
+**#Outcome:**
 
 Milestone 1 successfully established a clean and structured data model that can be used for further analysis, DAX measure creation, and interactive dashboard development in upcoming milestones.
 
-#Author:
+**#Author:**
 
 Anumalla Shwethan Kumar 
 
