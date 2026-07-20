@@ -1,10 +1,10 @@
-**#Milestone 1 – Data Modelling:**
+**Milestone 1 – Data Modelling:**
 
-**#Supply Chain Visibility & Optimization**
+**Supply Chain Visibility & Optimization**
 
 This milestone focuses on building a strong data foundation for the Supply Chain Visibility & Optimization project by importing, cleaning, transforming, and modelling the supply chain dataset using Microsoft Power BI.
 
-**#Objective:**
+**Objective:**
 
 - Import the supply chain dataset into Power BI.
 - Clean and transform data using Power Query Editor.
@@ -15,14 +15,14 @@ This milestone focuses on building a strong data foundation for the Supply Chain
 - Establish appropriate table relationships.
 - Prepare the data model for further supply chain analytics.
 
-**#Dataset Source:**
+**Dataset Source:**
 
 Dataset: DataCo Smart Supply Chain Dataset
 Source: Kaggle
 
 The dataset contains information related to customers, products, orders, shipping, departments, categories, and geographical locations.
 
-**#Data Cleaning & Transformation:**
+**Data Cleaning & Transformation:**
 
 The following operations were performed using Power Query Editor:
 
@@ -34,7 +34,7 @@ The following operations were performed using Power Query Editor:
 - Created a Date Dimension using DAX.
 - Created calculated date columns for Year, Month, Quarter, Week, and Day.
 
-**#Data Model Overview:**
+**Data Model Overview:**
 
 A structured data model was created consisting of:
 
@@ -49,14 +49,14 @@ A structured data model was created consisting of:
 
 Appropriate One-to-Many relationships were established between the Fact and Dimension tables to support efficient business analysis.
 
-**#Tools Used:**
+**Tools Used:**
 
 - Microsoft Power BI Desktop
 - Power Query Editor
 - DAX
 - GitHub
 
-**#Project Structure:**
+**Project Structure:**
 
 Milestone1/
 ├── SupplyChain_Milestone1.pbix
@@ -66,7 +66,7 @@ Milestone1/
 │   └── Data_model.png
 └── README.md
 
-**#Outcome:**
+**Outcome:**
 
 Successfully completed data preprocessing and developed a structured data model that provides a strong foundation for upcoming inventory, delivery, supplier, and transportation analytics modules.
 
