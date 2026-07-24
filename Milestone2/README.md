@@ -45,16 +45,6 @@ This milestone focuses on developing interactive inventory and delivery analytic
 
 ---
 
-**Project Structure:**
-
-```text
-Milestone2/
-├── SupplyChain_Milestone2.pbix
-├── data/
-├── screenshots/
-└── README.md
-```
-
 ---
 
 **Outcome:**
