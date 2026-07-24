@@ -55,6 +55,4 @@ Successfully developed interactive Inventory and Delivery Analytics dashboards w
 
 **Author:**
 **Anumalla Shwethan Kumar**
- **Anumalla Shwethan Kumar**
-
-Infosys Springboard Virtual Internship 7.0
+**Data Visualization Intern**
