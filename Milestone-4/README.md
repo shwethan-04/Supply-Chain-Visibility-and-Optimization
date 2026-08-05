@@ -1,15 +1,15 @@
-**Milestone-4: Warehouse Efficiency Analytics:**
+**Milestone-4: Warehouse Analytics & Executive Dashboard:**
 
 **Project Overview:**
 
-Developed a **Warehouse Efficiency Analytics Dashboard** using **Power BI** to analyze warehouse performance, inventory levels, capacity utilization, and operational risks.
+Developed an interactive **Warehouse Analytics** and **Executive Dashboard** using **Power BI** to analyze warehouse performance, inventory, capacity utilization, operational efficiency, and key business metrics.
 
 **Data Preparation:**
 
 - Cleaned and transformed data using Power Query
 - Created Fact and Dimension tables
-- Built relationships using a Star Schema model
-- Added calculated columns and DAX measures
+- Built a Star Schema data model
+- Developed calculated columns and DAX measures
 
 **Dashboard Features:**
 
@@ -20,11 +20,13 @@ Developed a **Warehouse Efficiency Analytics Dashboard** using **Power BI** to a
 - Total Stock Quantity
 - Critical Warehouses
 
-**Visuals:**
+**Visualizations:**
 - Warehouse Utilization Analysis
 - Capacity Efficiency Scatter Plot
 - Risk Classification
 - Stock Availability Analysis
+- Executive KPI Dashboard
+- Trend Analysis with Interactive Filters
 
 **Tools Used:**
 
@@ -35,7 +37,7 @@ Developed a **Warehouse Efficiency Analytics Dashboard** using **Power BI** to a
 
 **Outcome:**
 
-Created an interactive dashboard to monitor warehouse efficiency and support data-driven business decisions.
+Built an interactive business intelligence solution with KPI dashboards, drill-through analysis, trend reporting, and warehouse performance insights to support data-driven decision-making.
 
 **Author:**
 
